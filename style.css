@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.canteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 73px;
+    background-image: linear-gradient(to right, rgb(126, 126, 201), #000000);
+    overflow: hidden;
+}
+
+.calculadora-principal {
+    border: 1px solid black;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 1px 2px 4px 3px rgba(0, 0, 0, 0.453);
+    width: 386px;
+    height: 568px;
+    background-color: rgb(32, 37, 48);
+    color: white;
+    user-select: none;
+}
+
+#calculadora-resultado {
+    display: flex;
+    align-self: end;
+    justify-content: flex-end;
+    height: 100px;
+}
+
+.calculadora-corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 31px;
+    font-size: 47px;
+    font-family: Poppins, Helvetica, sans-serif;
+}
+
+.calculadora-linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.calculadora-botao {
+    color: white;
+    background-color: rgb(43, 38, 66);
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    height: 87px;
+    width: 95px;
+    cursor: pointer;
+}
+
+.calculadora-botao-especial {
+    color: white;
+    background-color: rgba(255, 105, 180, 0.87);
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    height: 88px;
+    width: 101px;
+    cursor: pointer;
+}
+
+.calculadora-botao-especial:hover {
+    background-color: rgb(226, 43, 134);
+    transition-duration: 0.1s;
+}
+
+.calculadora-botao:hover {
+    background-color: rgb(32, 37, 48);
+    transition-duration: 0.1s;
+}
+
+#calculadora-zero {
+    border-bottom-left-radius: 25px;
+    width: 190px;
+}
+
+#calculadora-equal {
+    border-bottom-right-radius: 25px;
+}
+
+
+
+

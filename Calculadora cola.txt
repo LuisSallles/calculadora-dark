@@ -1,0 +1,4 @@
+Altura da calculadora = 560px
+Largura da calculadora = 410px
+
+Cor de fundo calculadora = rgb(32, 37, 48);
