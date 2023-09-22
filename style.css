@@ -8,12 +8,12 @@
 }
 
 .canteudo-principal {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 73px;
+    padding: 43px;
     background-image: linear-gradient(to right, rgb(126, 126, 201), #000000);
-    overflow: hidden;
 }
 
 .calculadora-principal {
